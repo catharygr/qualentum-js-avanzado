@@ -4,6 +4,7 @@ const blogListado = document.querySelector(".blog-post");
 async function blogPost() {
   try {
     const response = await fetch(urls.blogPost);
+    console.log(response);
     const data = await response.json();
 
     const { posts } = data;
@@ -23,10 +24,10 @@ async function blogPost() {
 				</a></article>
       `;
     });
+    blogListado.innerHTML = html;
   } catch (error) {
     console.log(error);
   }
-  blogListado.innerHTML = html;
 }
 
 blogPost();
