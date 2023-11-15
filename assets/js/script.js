@@ -31,9 +31,20 @@ async function blogPost() {
       link.addEventListener("click", (e) => {
         e.preventDefault();
         const id = e.currentTarget.dataset.id;
-        getDetallePostListado(id);
+        getDetallePost(id);
       });
     });
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+// Función que se encarga de pintar el detalle de un post en el DOM
+async function getDetallePost(id) {
+  try {
+    const response = await fetch(urls[id]);
+    const data = await response.json();
+    const { title, content, author } = data;
   } catch (error) {
     console.log(error);
   }
