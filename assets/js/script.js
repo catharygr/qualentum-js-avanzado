@@ -25,6 +25,15 @@ async function blogPost() {
       `;
     });
     blogListado.innerHTML = html;
+
+    const postLink = document.querySelectorAll(".post-link");
+    postLink.forEach((link) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const id = e.currentTarget.dataset.id;
+        getDetallePostListado(id);
+      });
+    });
   } catch (error) {
     console.log(error);
   }
