@@ -92,18 +92,5 @@ async function getDetallesPost(id) {
   }
 }
 
-// Función que se encarga de pintar el detalle de un post en el DOM
-async function getDetallesPost(id) {
-  loaderContainer.classList.remove("hidden");
-  try {
-    const res = await fetch(urls[id]);
-    const data = await res.json();
-
-    const { title, content, author } = data;
-    detallelPost.innerHTML = "";
-  } catch (error) {
-    console.error(error);
-  }
-}
 // Llamada a la función principal
 blogPost();
