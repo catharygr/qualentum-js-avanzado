@@ -1,4 +1,4 @@
-# El problema
+## El problema
 
 ### Crear un blog con la maqueta proporcionada.
 
