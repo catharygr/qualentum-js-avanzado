@@ -1,6 +1,6 @@
 # El problema
 
-Crear un blog con la maqueta proporcionada.
+## Crear un blog con la maqueta proporcionada.
 
 ## Descripción del problema
 
