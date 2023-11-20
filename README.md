@@ -1,10 +1,10 @@
 # El problema
 
-## Crear un blog con la maqueta proporcionada.
+### Crear un blog con la maqueta proporcionada.
 
-## Descripción del problema
+### Descripción del problema
 
-## Se debe crear un blog con la maqueta proporcionada, el cual debe tener las siguientes características:
+##Se debe crear un blog con la maqueta proporcionada, el cual debe tener las siguientes características:
 
 - Se debe hacer un `fetch` usando las url `posts` que se encuentra en el objeto `urls` en el archivo `constant.js` en `assets/js/constant.js` y mostrar los posts en la maqueta.
 
