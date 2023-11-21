@@ -1,5 +1,4 @@
 import { urls } from "./constant.js";
-import { formatDate, getFechaPublicacion } from "./utils.js";
 
 const postsListado = document.querySelector(".posts");
 const detallelPost = document.querySelector(".detail-post");
