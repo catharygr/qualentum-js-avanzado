@@ -15,3 +15,5 @@
 - Al hacer click en el botón atras con el icono `<-`, se debe ocultar el detalle del post y mostrar el listado de posts.
 
 - Mostrar / Ocultar el `loader` cuando se haga un `fetch` de los posts y del detalle del post.
+
+- https://catharygr.github.io/qualentum-js-avanzado/
